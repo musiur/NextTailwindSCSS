@@ -2,4 +2,4 @@ Next Tailwind SCSS
 
 ## Starter
 
-# Just clone and user
+# Just clone and use
