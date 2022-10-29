@@ -1,5 +1,22 @@
 @import "./partials/variables";
 
-.container {
-    @apply px-10;
+
+.containerG {
+    @apply px-[2%] md:px-[3%] lg:px-[5%] xl:px-[7%] 2xl:px-[10%];
+}
+
+.containerGl {
+    @apply pl-[2%] md:pl-[3%] lg:pl-[5%] xl:pl-[7%] 2xl:pl-[10%];
+}
+.containerGr {
+    @apply pr-[2%] md:pr-[3%] lg:pr-[5%] xl:pr-[7%] 2xl:pr-[10%];
+}
+
+.sectionG {
+    @apply py-[3rem] lg:py-[5rem];
+}
+
+.btn-primary {
+    background-color: #0072F5;
+    color: white;
 }
