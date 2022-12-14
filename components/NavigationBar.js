@@ -137,13 +137,13 @@ const NavigationBar = () => {
         onClick={() => router.push("/")}
         className="cursor-pointer containerGl"
       >
-        <Text b size={30} color="warning" hideIn="xs">
-          ABIAN
+        <Text b size={30} color="primary" hideIn="xs">
+          Navbar
         </Text>
       </Navbar.Brand>
       <Navbar.Content
         enableCursorHighlight
-        activeColor="warning"
+        activeColor="primary"
         hideIn="xs"
         variant="highlight-rounded"
       >
@@ -196,7 +196,7 @@ const NavigationBar = () => {
               <Avatar
                 bordered
                 as="button"
-                color="warning"
+                color="primary"
                 size="md"
                 src="https://i.pravatar.cc/150?u=a042581f4e29026024d"
               />
